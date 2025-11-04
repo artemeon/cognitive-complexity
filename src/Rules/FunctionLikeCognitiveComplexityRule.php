@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Rules;
+namespace Artemeon\CognitiveComplexity\Rules;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\ArrowFunction;
@@ -14,10 +14,10 @@ use PHPStan\Analyser\Scope;
 use PHPStan\Reflection\ClassReflection;
 use PHPStan\Rules\Rule;
 use PHPStan\Rules\RuleErrorBuilder;
-use TomasVotruba\CognitiveComplexity\AstCognitiveComplexityAnalyzer;
-use TomasVotruba\CognitiveComplexity\Configuration;
-use TomasVotruba\CognitiveComplexity\Enum\RuleIdentifier;
-use TomasVotruba\CognitiveComplexity\Exception\ShouldNotHappenException;
+use Artemeon\CognitiveComplexity\AstCognitiveComplexityAnalyzer;
+use Artemeon\CognitiveComplexity\Configuration;
+use Artemeon\CognitiveComplexity\Enum\RuleIdentifier;
+use Artemeon\CognitiveComplexity\Exception\ShouldNotHappenException;
 
 /**
  * Based on https://www.sonarsource.com/docs/CognitiveComplexity.pdf
@@ -29,7 +29,7 @@ use TomasVotruba\CognitiveComplexity\Exception\ShouldNotHappenException;
  *
  * @see https://www.tomasvotruba.com/blog/2018/05/21/is-your-code-readable-by-humans-cognitive-complexity-tells-you/
  *
- * @see \TomasVotruba\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\FunctionLikeCognitiveComplexityRuleTest
+ * @see \Artemeon\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\FunctionLikeCognitiveComplexityRuleTest
  */
 final readonly class FunctionLikeCognitiveComplexityRule implements Rule
 {

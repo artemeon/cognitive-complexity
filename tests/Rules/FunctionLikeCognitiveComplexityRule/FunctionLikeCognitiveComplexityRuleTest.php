@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule;
+namespace Artemeon\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule;
 
 use Iterator;
 use Override;
 use PHPStan\Rules\Rule;
 use PHPStan\Testing\RuleTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use TomasVotruba\CognitiveComplexity\Rules\FunctionLikeCognitiveComplexityRule;
-use TomasVotruba\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\Fixture\ClassMethodOverComplicated;
-use TomasVotruba\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\Fixture\VideoRepository;
+use Artemeon\CognitiveComplexity\Rules\FunctionLikeCognitiveComplexityRule;
+use Artemeon\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\Fixture\ClassMethodOverComplicated;
+use Artemeon\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\Fixture\VideoRepository;
 
 final class FunctionLikeCognitiveComplexityRuleTest extends RuleTestCase
 {

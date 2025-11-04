@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\AstCognitiveComplexityAnalyzer;
+namespace Artemeon\CognitiveComplexity\Tests\AstCognitiveComplexityAnalyzer;
 
 use Iterator;
 use PhpParser\Node;
@@ -13,8 +13,8 @@ use PhpParser\ParserFactory;
 use PHPStan\DependencyInjection\ContainerFactory;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use TomasVotruba\CognitiveComplexity\AstCognitiveComplexityAnalyzer;
-use TomasVotruba\CognitiveComplexity\Exception\ShouldNotHappenException;
+use Artemeon\CognitiveComplexity\AstCognitiveComplexityAnalyzer;
+use Artemeon\CognitiveComplexity\Exception\ShouldNotHappenException;
 
 final class AstCognitiveComplexityAnalyzerTest extends TestCase
 {

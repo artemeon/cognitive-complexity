@@ -15,21 +15,21 @@ parameters:
         dependency_tree_types: []
 
 services:
-    - TomasVotruba\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector
-    - TomasVotruba\CognitiveComplexity\AstCognitiveComplexityAnalyzer
-    - TomasVotruba\CognitiveComplexity\NodeTraverser\ComplexityNodeTraverserFactory
-    - TomasVotruba\CognitiveComplexity\NodeVisitor\NestingNodeVisitor
-    - TomasVotruba\CognitiveComplexity\NodeVisitor\ComplexityNodeVisitor
-    - TomasVotruba\CognitiveComplexity\NodeAnalyzer\ComplexityAffectingNodeFinder
-    - TomasVotruba\CognitiveComplexity\ClassReflectionParser
+    - Artemeon\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector
+    - Artemeon\CognitiveComplexity\AstCognitiveComplexityAnalyzer
+    - Artemeon\CognitiveComplexity\NodeTraverser\ComplexityNodeTraverserFactory
+    - Artemeon\CognitiveComplexity\NodeVisitor\NestingNodeVisitor
+    - Artemeon\CognitiveComplexity\NodeVisitor\ComplexityNodeVisitor
+    - Artemeon\CognitiveComplexity\NodeAnalyzer\ComplexityAffectingNodeFinder
+    - Artemeon\CognitiveComplexity\ClassReflectionParser
 
     -
-        factory: TomasVotruba\CognitiveComplexity\Configuration
+        factory: Artemeon\CognitiveComplexity\Configuration
         arguments:
             - %cognitive_complexity%
 
 rules:
-    - TomasVotruba\CognitiveComplexity\Rules\ClassLikeCognitiveComplexityRule
-    - TomasVotruba\CognitiveComplexity\Rules\FunctionLikeCognitiveComplexityRule
-    - TomasVotruba\CognitiveComplexity\Rules\ClassDependencyTreeRule
+    - Artemeon\CognitiveComplexity\Rules\ClassLikeCognitiveComplexityRule
+    - Artemeon\CognitiveComplexity\Rules\FunctionLikeCognitiveComplexityRule
+    - Artemeon\CognitiveComplexity\Rules\ClassDependencyTreeRule
 

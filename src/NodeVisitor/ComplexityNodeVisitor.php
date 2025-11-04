@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\NodeVisitor;
+namespace Artemeon\CognitiveComplexity\NodeVisitor;
 
 use PhpParser\Node;
 use PhpParser\NodeVisitorAbstract;
-use TomasVotruba\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector;
-use TomasVotruba\CognitiveComplexity\NodeAnalyzer\ComplexityAffectingNodeFinder;
+use Artemeon\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector;
+use Artemeon\CognitiveComplexity\NodeAnalyzer\ComplexityAffectingNodeFinder;
 
 final class ComplexityNodeVisitor extends NodeVisitorAbstract
 {

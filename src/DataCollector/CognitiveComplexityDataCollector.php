@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\DataCollector;
+namespace Artemeon\CognitiveComplexity\DataCollector;
 
 final class CognitiveComplexityDataCollector
 {

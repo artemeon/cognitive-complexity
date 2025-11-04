@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TomasVotruba\\CognitiveComplexity\\": "src"
+            "Artemeon\\CognitiveComplexity\\": "src"
         }
     },
     "extra": {

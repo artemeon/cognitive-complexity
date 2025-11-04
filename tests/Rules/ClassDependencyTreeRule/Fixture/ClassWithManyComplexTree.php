@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Fixture;
+namespace Artemeon\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Fixture;
 
-use TomasVotruba\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Source\AnotherComplexService;
-use TomasVotruba\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Source\CheckComplexity;
-use TomasVotruba\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Source\ComplexService;
+use Artemeon\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Source\AnotherComplexService;
+use Artemeon\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Source\CheckComplexity;
+use Artemeon\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule\Source\ComplexService;
 
 final class ClassWithManyComplexTree extends CheckComplexity
 {

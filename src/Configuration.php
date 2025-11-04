@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity;
+namespace Artemeon\CognitiveComplexity;
 
 final readonly class Configuration
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Enum;
+namespace Artemeon\CognitiveComplexity\Enum;
 
 final class RuleIdentifier
 {

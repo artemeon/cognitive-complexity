@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\NodeTraverser;
+namespace Artemeon\CognitiveComplexity\NodeTraverser;
 
 use PhpParser\NodeTraverser;
-use TomasVotruba\CognitiveComplexity\NodeVisitor\ComplexityNodeVisitor;
-use TomasVotruba\CognitiveComplexity\NodeVisitor\NestingNodeVisitor;
+use Artemeon\CognitiveComplexity\NodeVisitor\ComplexityNodeVisitor;
+use Artemeon\CognitiveComplexity\NodeVisitor\NestingNodeVisitor;
 
 final readonly class ComplexityNodeTraverserFactory
 {

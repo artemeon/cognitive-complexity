@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Exception;
+namespace Artemeon\CognitiveComplexity\Exception;
 
 use Exception;
 

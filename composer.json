@@ -1,5 +1,5 @@
 {
-    "name": "tomasvotruba/cognitive-complexity",
+    "name": "artemeon/cognitive-complexity",
     "type": "phpstan-extension",
     "description": "PHPStan rules to measure cognitive complexity of your classes and methods",
     "license": "MIT",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TomasVotruba\\CognitiveComplexity\\": "src"
+            "Artemeon\\CognitiveComplexity\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TomasVotruba\\CognitiveComplexity\\Tests\\": "tests"
+            "Artemeon\\CognitiveComplexity\\Tests\\": "tests"
         }
     },
     "scripts": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Rules;
+namespace Artemeon\CognitiveComplexity\Rules;
 
 use PhpParser\Node;
 use PhpParser\Node\Stmt\Class_;
@@ -13,10 +13,10 @@ use PHPStan\Reflection\ParameterReflection;
 use PHPStan\Reflection\ParametersAcceptorSelector;
 use PHPStan\Rules\Rule;
 use PHPStan\Rules\RuleErrorBuilder;
-use TomasVotruba\CognitiveComplexity\AstCognitiveComplexityAnalyzer;
-use TomasVotruba\CognitiveComplexity\ClassReflectionParser;
-use TomasVotruba\CognitiveComplexity\Configuration;
-use TomasVotruba\CognitiveComplexity\Enum\RuleIdentifier;
+use Artemeon\CognitiveComplexity\AstCognitiveComplexityAnalyzer;
+use Artemeon\CognitiveComplexity\ClassReflectionParser;
+use Artemeon\CognitiveComplexity\Configuration;
+use Artemeon\CognitiveComplexity\Enum\RuleIdentifier;
 
 /**
  * @implements Rule<InClassNode>

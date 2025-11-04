@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\Fixture;
+namespace Artemeon\CognitiveComplexity\Tests\Rules\FunctionLikeCognitiveComplexityRule\Fixture;
 
 final class VideoRepository
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\NodeVisitor;
+namespace Artemeon\CognitiveComplexity\NodeVisitor;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\Closure;
@@ -14,8 +14,8 @@ use PhpParser\Node\Stmt\Foreach_;
 use PhpParser\Node\Stmt\If_;
 use PhpParser\Node\Stmt\While_;
 use PhpParser\NodeVisitorAbstract;
-use TomasVotruba\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector;
-use TomasVotruba\CognitiveComplexity\NodeAnalyzer\ComplexityAffectingNodeFinder;
+use Artemeon\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector;
+use Artemeon\CognitiveComplexity\NodeAnalyzer\ComplexityAffectingNodeFinder;
 
 final class NestingNodeVisitor extends NodeVisitorAbstract
 {

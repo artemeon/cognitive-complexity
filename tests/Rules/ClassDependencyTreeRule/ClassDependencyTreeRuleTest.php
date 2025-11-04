@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule;
+namespace Artemeon\CognitiveComplexity\Tests\Rules\ClassDependencyTreeRule;
 
 use Iterator;
 use Override;
 use PHPStan\Rules\Rule;
 use PHPStan\Testing\RuleTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use TomasVotruba\CognitiveComplexity\Rules\ClassDependencyTreeRule;
+use Artemeon\CognitiveComplexity\Rules\ClassDependencyTreeRule;
 
 final class ClassDependencyTreeRuleTest extends RuleTestCase
 {

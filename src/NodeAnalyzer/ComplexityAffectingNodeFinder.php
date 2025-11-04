@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\NodeAnalyzer;
+namespace Artemeon\CognitiveComplexity\NodeAnalyzer;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr;

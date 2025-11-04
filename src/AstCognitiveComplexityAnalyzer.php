@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity;
+namespace Artemeon\CognitiveComplexity;
 
 use PhpParser\Node\Stmt\Class_;
 use PhpParser\Node\Stmt\ClassMethod;
 use PhpParser\Node\Stmt\Function_;
-use TomasVotruba\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector;
-use TomasVotruba\CognitiveComplexity\NodeTraverser\ComplexityNodeTraverserFactory;
-use TomasVotruba\CognitiveComplexity\NodeVisitor\NestingNodeVisitor;
+use Artemeon\CognitiveComplexity\DataCollector\CognitiveComplexityDataCollector;
+use Artemeon\CognitiveComplexity\NodeTraverser\ComplexityNodeTraverserFactory;
+use Artemeon\CognitiveComplexity\NodeVisitor\NestingNodeVisitor;
 
 /**
- * @see \TomasVotruba\CognitiveComplexity\Tests\AstCognitiveComplexityAnalyzer\AstCognitiveComplexityAnalyzerTest
+ * @see \Artemeon\CognitiveComplexity\Tests\AstCognitiveComplexityAnalyzer\AstCognitiveComplexityAnalyzerTest
  *
  * implements the concept described in https://www.sonarsource.com/resources/white-papers/cognitive-complexity/
  */

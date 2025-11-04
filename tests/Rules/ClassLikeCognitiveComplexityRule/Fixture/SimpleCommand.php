@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\Rules\ClassLikeCognitiveComplexityRule\Fixture;
+namespace Artemeon\CognitiveComplexity\Tests\Rules\ClassLikeCognitiveComplexityRule\Fixture;
 
 use Symfony\Component\Console\Command\Command;
 

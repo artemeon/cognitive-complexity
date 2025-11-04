@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TomasVotruba\CognitiveComplexity\Tests\Rules\ClassLikeCognitiveComplexityRule;
+namespace Artemeon\CognitiveComplexity\Tests\Rules\ClassLikeCognitiveComplexityRule;
 
 use Iterator;
 use Override;
 use PHPStan\Rules\Rule;
 use PHPStan\Testing\RuleTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use TomasVotruba\CognitiveComplexity\Rules\ClassLikeCognitiveComplexityRule;
+use Artemeon\CognitiveComplexity\Rules\ClassLikeCognitiveComplexityRule;
 
 final class ClassLikeCognitiveComplexityRuleTest extends RuleTestCase
 {
