@@ -37,7 +37,7 @@ How to keep **cognitive complexity on 1**? Read [Cognitive load is what matters]
 ## Install
 
 ```bash
-composer require tomasvotruba/cognitive-complexity --dev
+composer require artemeon/cognitive-complexity --dev
 ```
 
 The package is available on PHP 7.4+.
