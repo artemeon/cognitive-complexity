@@ -24,7 +24,7 @@ final class ClassLikeCognitiveComplexityRuleTest extends RuleTestCase
 
     public static function provideDataForTest(): Iterator
     {
-        $errorMessage = sprintf(ClassLikeCognitiveComplexityRule::ERROR_MESSAGE, 54, 50);
+        $errorMessage = sprintf(ClassLikeCognitiveComplexityRule::ERROR_MESSAGE, 50);
         yield [__DIR__ . '/Fixture/ClassWithManyComplexMethods.php', [[$errorMessage, 7]]];
 
         // complexity: 9

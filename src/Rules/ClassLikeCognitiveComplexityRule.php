@@ -19,7 +19,7 @@ use TomasVotruba\CognitiveComplexity\Enum\RuleIdentifier;
  */
 final readonly class ClassLikeCognitiveComplexityRule implements Rule
 {
-    public const string ERROR_MESSAGE = 'Class cognitive complexity is %d, keep it under %d';
+    public const string ERROR_MESSAGE = 'Keep class cognitive complexity under %d';
 
     public function __construct(
         private AstCognitiveComplexityAnalyzer $astCognitiveComplexityAnalyzer,
@@ -52,7 +52,6 @@ final readonly class ClassLikeCognitiveComplexityRule implements Rule
 
         $message = sprintf(
             self::ERROR_MESSAGE,
-            $measuredCognitiveComplexity,
             $this->configuration->getMaxClassCognitiveComplexity()
         );
 

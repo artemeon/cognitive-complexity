@@ -26,13 +26,12 @@ final class FunctionLikeCognitiveComplexityRuleTest extends RuleTestCase
 
     public static function provideDataForTest(): Iterator
     {
-        $errorMessage = sprintf(FunctionLikeCognitiveComplexityRule::ERROR_MESSAGE, 'someFunction()', 9, 8);
+        $errorMessage = sprintf(FunctionLikeCognitiveComplexityRule::ERROR_MESSAGE, 'someFunction()', 8);
         yield [__DIR__ . '/Fixture/function.php.inc', [[$errorMessage, 3]]];
 
         $errorMessage = sprintf(
             FunctionLikeCognitiveComplexityRule::ERROR_MESSAGE,
             ClassMethodOverComplicated::class . '::someMethod()',
-            9,
             8
         );
         yield [__DIR__ . '/Fixture/ClassMethodOverComplicated.php', [[$errorMessage, 9]]];
@@ -40,7 +39,6 @@ final class FunctionLikeCognitiveComplexityRuleTest extends RuleTestCase
         $errorMessage = sprintf(
             FunctionLikeCognitiveComplexityRule::ERROR_MESSAGE,
             VideoRepository::class . '::findBySlug()',
-            9,
             8
         );
         yield [__DIR__ . '/Fixture/VideoRepository.php', [[$errorMessage, 12]]];
