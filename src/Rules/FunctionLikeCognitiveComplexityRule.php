@@ -33,7 +33,7 @@ use TomasVotruba\CognitiveComplexity\Exception\ShouldNotHappenException;
  */
 final readonly class FunctionLikeCognitiveComplexityRule implements Rule
 {
-    public const string ERROR_MESSAGE = 'Cognitive complexity for "%s" is %d, keep it under %d';
+    public const string ERROR_MESSAGE = 'Keep cognitive complexity for "%s" under %d';
 
     public function __construct(
         private AstCognitiveComplexityAnalyzer $astCognitiveComplexityAnalyzer,
@@ -68,7 +68,6 @@ final readonly class FunctionLikeCognitiveComplexityRule implements Rule
         $message = sprintf(
             self::ERROR_MESSAGE,
             $functionLikeName,
-            $functionLikeCognitiveComplexity,
             $this->configuration->getMaxFunctionCognitiveComplexity()
         );
 
